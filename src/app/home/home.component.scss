@@ -1,0 +1,16 @@
+// Default approch
+
+// @import '../../assets/styles/configs';
+// .forward {
+//     background-color: $btn-color-approve-ok;
+//     padding: $btn-p5;
+//     color: $btn-text-color-w;
+// }
+
+// mixins approch
+
+@import '../../assets/styles/mixins';
+
+.forward {
+    @include btn-user-defined-generaor(rgb(0, 47, 255), #fff, 10px, 10px);
+}

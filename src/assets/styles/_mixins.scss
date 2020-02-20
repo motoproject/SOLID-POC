@@ -1,0 +1,6 @@
+@mixin btn-user-defined-generaor($btn-bg-color, $btn-text-color, $btn-padding, $btn-margin) {
+    background-color: $btn-bg-color;
+    color: $btn-text-color;
+    padding: $btn-padding;
+    margin: $btn-margin;
+}
