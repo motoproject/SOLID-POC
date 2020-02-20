@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpBaseService } from '../HttpBaseService';
 import { Observable } from 'rxjs';
 
+// Single Responsibiliy & Open-Closed Principal OR Liskov Subsitution Principal
 @Injectable()
 export class HomeService extends HttpBaseService {
 

@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit, OnChanges, OnDestroy {
   ngOnChanges() {
   }
 
+  // Single Responsibiliy Principal
   ngOnDestroy() {
     this.heading = null;
   }
